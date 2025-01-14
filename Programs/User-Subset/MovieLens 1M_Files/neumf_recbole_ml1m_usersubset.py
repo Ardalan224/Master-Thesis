@@ -85,7 +85,7 @@ def prune_10_core(data):
 # Apply 10-core pruning
 ratings = prune_10_core(ratings)
 
-# 10% validation + 10% test set + 10% of the training----> 0.28      0.36        0.44      0.52      0.60      0.68     0.76     0.84      0.92      1.0
+# 10% validation + 10% test set + n% of the training set based on the desired downsampling portion----> 0.28      0.36        0.44      0.52      0.60      0.68     0.76     0.84      0.92      1.0
 
 import random
 import numpy as np
