@@ -175,7 +175,7 @@ print("\nUsers with fewer than 10 interactions after pruning:", (user_counts < 1
 print("Items with fewer than 10 interactions after pruning:", (item_counts < 10).sum())
 
 
-# 10% validation + 10% test set + 10% of the training----> 0.28      0.36        0.44      0.52      0.60      0.68     0.76     0.84      0.92      1.0
+# 10% validation + 10% test set + n% of the training set based on the desired downsampling portion----> 0.28      0.36        0.44      0.52      0.60      0.68     0.76     0.84      0.92      1.0
 import random
 
 def downsample_ratings(ratings, target_percentage= 0.92):
