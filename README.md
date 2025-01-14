@@ -16,9 +16,9 @@ Key Details and Clarifications:
 2- Downsampling Portions and Split Setup
 
   - Each downsampling portion results in a specific split setup: 10% Test Set, 10% Validation Set, and a varying portion of the Training Set.
-  - In the code, specific sequences of values and their corresponding proportions (e.g., # 28 ---> 0.56, 36 ---> 0.385) are carefully designed to achieve the 
-    desired final split for each downsampling portion. When all cells are executed with the specified values for a given portion, the resulting allocation of 
-    interactions across the training, validation, and test sets aligns with the intended setup.
+  - In the code, specific sequences of values and their corresponding proportions (e.g., # 30% = 0.297 or 60 ---> 0.385) represent the values that should be       
+    replaced for the specified downsampling portion (e.g., 30% or 60%) in that block of code. When all cells are executed with these values, the resulting   
+    allocation of interactions across the training, validation, and test sets aligns with the intended setup.
     
 3- Core Pruning Levels
 
