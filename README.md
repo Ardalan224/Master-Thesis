@@ -1,5 +1,5 @@
 # Optimal Dataset Size for Recommender Systems: Evaluating Algorithms' Performance via Downsampling
-This public GitHub repository contains the Python code used for the experiments conducted in my Master's thesis, titled: "Optimal Dataset Size for Recommender Systems: Evaluating Algorithms' Performance via Downsampling."
+This public GitHub repository contains the resulting figures and Python codes used for the experiments conducted in my Master's thesis, titled: "Optimal Dataset Size for Recommender Systems: Evaluating Algorithms' Performance via Downsampling."
 
 The programs here provide a general structure of the code used in the experiments. Adjustments may have been made in specific scenarios or experimental requirements. Note that the exact set of random seeds and hyperparameters used in the experiments may differ from those specified in the uploaded scripts.
 
