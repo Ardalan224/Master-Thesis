@@ -1,5 +1,16 @@
 # Optimal Dataset Size for Recommender Systems: Evaluating Algorithms' Performance via Downsampling
 This public GitHub repository contains the resulting figures and Python codes used for the experiments conducted in my Master's thesis, titled: "Optimal Dataset Size for Recommender Systems: Evaluating Algorithms' Performance via Downsampling."
+## Datasets  
+
+The datasets used in this study are publicly available but **not included** in this repository due to licensing restrictions. You can download them from the following sources:  
+
+- **MovieLens Dataset**: [https://grouplens.org/datasets/movielens/](https://grouplens.org/datasets/movielens/)  
+- **Amazon Review Dataset**: [https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/)  
+- **Gowalla Dataset**: [https://snap.stanford.edu/data/loc-gowalla.html](https://snap.stanford.edu/data/loc-gowalla.html)  
+
+After downloading, please place the datasets in the appropriate directory before running the scripts.  
+
+---
 
 The programs here provide a general structure of the code used in the experiments. Adjustments may have been made in specific scenarios or experimental requirements. Note that the exact set of random seeds and hyperparameters used in the experiments may differ from those specified in the uploaded scripts.
 
